@@ -112,8 +112,12 @@ Get 32ES.ino.bin, 32ES.ino.bootloader.bin and 32ES.ino.partitions.bin files.
 
 Get Windows ESP32 flash download tool at: https://www.espressif.com/en/support/download/other-tools
 
-Click on … to select 32ES.ino.bin file directory location. In the @ box, put 0x10000 Click on … to select 32ES.ino.bootloader.bin file directory location. In the @ box, put 0x0000 Click on … to select 32ES.ino.partitions.bin file directory location. In the @ box, put 0x8000
+Make sure you are using chip type ESP32-S3
 
-SPI speed is 40MHz, SPI mode is DIO. Check mark in the box labeled “DoNotChgBin”. My port settings are COM4, baud 115200. Connect the M5 Cardputer to your PC using a USB C cable. Click on START to burn the firmware.
+Click on … to select 32ES.ino.bin file directory location. Check the box to the left of the file name.  In the @ box, put 0x10000 
+Click on … to select 32ES.ino.bootloader.bin file directory location. Check the box to the left of the file name.  In the @ box, put 0x0000 
+Click on … to select 32ES.ino.partitions.bin file directory location. Check the box to the left of the file name.  In the @ box, put 0x8000
+
+SPI speed is 40MHz, SPI mode is DIO. Check mark in the box labeled “DoNotChgBin”. My port settings are COM4, baud 115200. Connect the M5 Paper S3 to your PC using a USB C cable. Click on START to burn the firmware.
 
 
