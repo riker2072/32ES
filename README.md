@@ -1,5 +1,5 @@
 # 32ES
-E-ink based 32S scientific calculator (beta version)
+E-ink based 32S scientific calculator (beta version). Uses the M5Stack Paper S3 hardware.
 
 32ES Calculator Project
 
